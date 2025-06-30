@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(186, 225, 251);
+    height: 4rem;
+    text-align: center;
+}
+h1{
+    line-height: 4rem;
+}
+.choices{
+    margin-top:4rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem; /*images k bich gap */
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+   
+}
+
+.tinochoice:hover{
+    /* border:10px solid rgb(19, 19, 19);*/
+    /* opacity: 0.5; */
+    cursor: pointer;
+    background-color: #081b31;
+    justify-content: center;
+    align-items: center;
+} 
+
+.tinochoice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+}
+
+#score-board{
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   gap: 3rem;
+   font-size: 2rem;
+   margin-top: 2rem;
+}
+
+#user-score,#comp-score{
+    font-size:4rem;
+}
+
+.msg-container{
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+#press{
+    text-align: center;
+    font-size:2rem ;
+    background-color: #081b31;
+    display: inline; /* inlineblock krke dkhlyo agr inline or inline block m confusion ho*/
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
